@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartCare Hospital</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+header{
+background:linear-gradient(90deg,#0077b6,#00b4d8);
+padding:15px 40px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#ffd60a;
+}
+
+/* HERO */
+
+.hero{
+height:500px;
+background:url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-text{
+background:rgba(0,0,0,0.5);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+background:#ffd60a;
+font-weight:bold;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* SERVICES */
+
+.services{
+padding:60px 20px;
+background:#f4f8fb;
+text-align:center;
+}
+
+.services h2{
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.card{
+background:white;
+width:260px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card i{
+font-size:40px;
+color:#0077b6;
+margin-bottom:10px;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* STATS */
+
+.stats{
+background:#0077b6;
+color:white;
+padding:60px;
+display:flex;
+justify-content:space-around;
+text-align:center;
+}
+
+.stats h2{
+font-size:35px;
+}
+
+/* DOCTORS */
+
+.doctors{
+padding:60px;
+text-align:center;
+}
+
+.doctor-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.doctor{
+width:220px;
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+padding:20px;
+}
+
+.doctor img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#023e8a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>🏥 SmartCare Hospital</h2>
+
+<ul>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/DOCTOR.html">Doctor</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/ABOUT.html">About</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/LAB.html">Lab</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/staff.html">Services</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/appointments.html"> Book Appointment</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/CONTACT.html">Contact</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/EMERGENCY.html">Emergency</a></li>
+<li><a href="file:///C:/Users/dnyan/OneDrive/Desktop/WPD%20microproject/pharmacy.html">Pharmacy</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Welcome to SmartCare Hospital</h1>
+
+<p>Advanced Healthcare with Expert Doctors</p>
+
+<button>Book Appointment</button>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fas fa-ambulance"></i>
+<h3>Emergency</h3>
+<p>24/7 emergency services.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-user-md"></i>
+<h3>Doctors</h3>
+<p>Experienced specialists.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-flask"></i>
+<h3>Laboratory</h3>
+<p>Modern diagnostic lab.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-pills"></i>
+<h3>Pharmacy</h3>
+<p>All medicines available.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div>
+<h2>120+</h2>
+<p>Doctors</p>
+</div>
+
+<div>
+<h2>5000+</h2>
+<p>Patients</p>
+</div>
+
+<div>
+<h2>50+</h2>
+<p>Rooms</p>
+</div>
+
+<div>
+<h2>24/7</h2>
+<p>Service</p>
+</div>
+
+</section>
+
+
+<!-- DOCTORS -->
+
+<section class="doctors">
+
+<h2>Our Doctors</h2>
+
+<div class="doctor-container">
+
+<div class="doctor">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Dr. Sharma</h3>
+<p>Cardiologist</p>
+</div>
+
+<div class="doctor">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Dr. Patel</h3>
+<p>Dentist</p>
+</div>
+
+<div class="doctor">
+<img src="https://randomuser.me/api/portraits/men/75.jpg">
+<h3>Dr. Mehta</h3>
+<p>Neurologist</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 SmartCare Hospital | Hospital Management System</p>
+
+</footer>
+
+</body>
+</html>
